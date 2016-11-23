@@ -1,6 +1,6 @@
 {
   "name": "sails101-file-uploads",
-  "version": "0.0.0",
+  "version": "v6.9.1",
   "description": "How do I upload files in Sails?",
   "keywords": [],
   "dependencies": {
