@@ -106,6 +106,10 @@ var config = require('./config');
 //   });
 // }));
 
+app.get('/views', function(req, res){
+  res.sendfile('layout.ejs');
+});
+
 mongoose.connect(config.mongoUrl);
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -115,7 +119,7 @@ db.once('open', function () {
 });
 
 app.get('/', function(req, res){
-  res.sendfile('index.html');
+  res.sendfile('views/layout.ejs');
 });
 
 io.on('connection', function(socket){

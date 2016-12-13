@@ -48,4 +48,12 @@ module.exports.policies = {
 		// before letting any users feed our rabbits
 		// feed : ['isNiceToAnimals', 'hasRabbitFood']
 	// }
+  '*': false,
+    UserController: {
+      '*' : ['isAdmin'],
+      'messages': 'MessagesPolicy'
+    },
+    MainController: {
+      '*':true,
+    }
 };

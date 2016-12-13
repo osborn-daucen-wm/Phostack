@@ -1,0 +1,208 @@
+{
+  "data": {
+    "chat": [
+      {
+        "messages": [
+          {
+            "user": "Ozzie",
+            "message": "Hello World!"
+          }
+        ],
+        "createdAt": "2016-11-29T21:26:47.851Z",
+        "updatedAt": "2016-11-29T21:26:47.851Z",
+        "id": 1
+      },
+      {
+        "messages": [
+          {
+            "user": "Daucen",
+            "message": "Hello World!"
+          }
+        ],
+        "createdAt": "2016-11-29T21:57:44.097Z",
+        "updatedAt": "2016-11-29T21:57:44.097Z",
+        "id": 2
+      },
+      {
+        "messages": [
+          {
+            "user": "Daucen",
+            "message": "Hello World!"
+          }
+        ],
+        "createdAt": "2016-11-30T20:47:34.133Z",
+        "updatedAt": "2016-11-30T20:47:34.133Z",
+        "id": 3
+      },
+      {
+        "messages": [
+          {
+            "user": "Daucen",
+            "message": "Hello World!"
+          }
+        ],
+        "createdAt": "2016-11-30T20:48:16.632Z",
+        "updatedAt": "2016-11-30T20:48:16.632Z",
+        "id": 4
+      },
+      {
+        "messages": [
+          {
+            "user": "Daucen",
+            "message": "Hello World!"
+          }
+        ],
+        "createdAt": "2016-11-30T20:53:28.855Z",
+        "updatedAt": "2016-11-30T20:53:28.855Z",
+        "id": 5
+      },
+      {
+        "messages": [
+          {
+            "user": "Daucen",
+            "message": "Hello World!"
+          }
+        ],
+        "createdAt": "2016-11-30T20:56:53.727Z",
+        "updatedAt": "2016-11-30T20:56:53.727Z",
+        "id": 6
+      },
+      {
+        "messages": [
+          {
+            "user": "Daucen",
+            "message": "Hello World!"
+          }
+        ],
+        "createdAt": "2016-11-30T20:59:13.868Z",
+        "updatedAt": "2016-11-30T20:59:13.868Z",
+        "id": 7
+      },
+      {
+        "messages": [
+          {
+            "user": "Daucen",
+            "message": "Hello World!"
+          }
+        ],
+        "createdAt": "2016-11-30T21:01:59.741Z",
+        "updatedAt": "2016-11-30T21:01:59.741Z",
+        "id": 8
+      },
+      {
+        "messages": [
+          {
+            "user": "Daucen",
+            "message": "Hello World!"
+          }
+        ],
+        "createdAt": "2016-11-30T21:11:39.137Z",
+        "updatedAt": "2016-11-30T21:11:39.137Z",
+        "id": 9
+      },
+      {
+        "messages": [
+          {
+            "user": "Daucen",
+            "message": "Hello World!"
+          }
+        ],
+        "createdAt": "2016-11-30T21:11:50.834Z",
+        "updatedAt": "2016-11-30T21:11:50.834Z",
+        "id": 10
+      }
+    ],
+    "user": [
+      {
+        "messages": [
+          {
+            "user": "Daucen",
+            "message": "Hello World!"
+          }
+        ],
+        "createdAt": "2016-11-30T21:14:10.571Z",
+        "updatedAt": "2016-11-30T21:14:10.571Z",
+        "id": 1
+      },
+      {
+        "messages": [
+          {
+            "user": "Daucen",
+            "message": "Hello World!"
+          }
+        ],
+        "createdAt": "2016-11-30T21:15:55.371Z",
+        "updatedAt": "2016-11-30T21:15:55.371Z",
+        "id": 2
+      },
+      {
+        "messages": [
+          {
+            "user": "Daucen"
+          }
+        ],
+        "createdAt": "2016-11-30T21:16:08.613Z",
+        "updatedAt": "2016-11-30T21:16:08.613Z",
+        "id": 3
+      },
+      {
+        "messages": [
+          {
+            "user": "Daucen"
+          }
+        ],
+        "createdAt": "2016-11-30T21:17:17.578Z",
+        "updatedAt": "2016-11-30T21:17:17.578Z",
+        "id": 4
+      },
+      {
+        "messages": [
+          {
+            "user": "Daucen"
+          }
+        ],
+        "createdAt": "2016-11-30T21:17:30.900Z",
+        "updatedAt": "2016-11-30T21:17:30.900Z",
+        "id": 5
+      }
+    ]
+  },
+  "schema": {
+    "chat": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "chat": {
+      "id": 10
+    },
+    "user": {
+      "id": 5
+    }
+  }
+}
